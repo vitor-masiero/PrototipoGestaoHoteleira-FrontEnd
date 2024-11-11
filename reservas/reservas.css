@@ -1,0 +1,100 @@
+/* Estilização geral */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo*/
+    color: #292929; /* Cor do texto */
+}
+/*Titulo*/
+h1 { 
+    color: #000000; /* Cor do título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilização da tabela */
+
+.conteudo-tabela table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.conteudo-tabela th, .conteudo-tabela td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borda da tabela */
+}
+
+.conteudo-tabela th {
+    background-color: #4b3924; /* Cor do cabeçalho tabela */
+    color: #ffffff; /* Cor do texto do cabeçalho tabela */
+}
+
+.conteudo-tabela tr:nth-child(even) {
+    background-color: #ecf1ee; 
+}
+
+.conteudo-tabela tr:hover {
+    background-color: #b3a99f; /* Cor de fundo da tabela ao passar o mouse */
+}
+
+.conteudo-tabela tfoot {
+    font-weight: bold;
+    background-color: #bdc3c7; /* Cor de fundo do rodapé da tabela */
+}
+
+/* Estilização dos botões */
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.botoes button {
+    background-color: #4b3924; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões "Salvar" e "Limpar"*/
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Tempo de transição quando passar o mouse */
+}
+
+.botoes button:hover {
+    background-color: #72614e; /* Cor ao passar o mouse "Salvar" e "Limpar"*/
+}
+
+/* Estilização do formulário */
+
+.item-form {
+    margin-bottom: 15px;
+}
+
+.item-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Negrito para os rótulos */
+}
+
+.item-form input, .item-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+
+/* Estilização do rodapé */
+.rodape {
+    background-color: #4b3924; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.rodape p {
+    margin: 5px 0;
+}
